@@ -1,6 +1,7 @@
 var inquirer = require('inquirer');
 var mysql = require('mysql');
 
+
 var amountOwed;
 var currentDepartment;
 var updateSales;
@@ -9,7 +10,7 @@ var connection = mysql.createConnection({
 	host: 'localhost',
 	port: 3306,
 	user: 'root',
-	password: '',
+	password: 'mak199154',
 	database: 'Bamazon_db'
 });
 
